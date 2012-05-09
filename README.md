@@ -6,8 +6,8 @@ A jQuery monthpicker widget. Supports a single month/year or range.
 INSTALLATION:
 
 Pretty simple. For those of you new to 3rd party jQuery plugins, simply include
-<script type="text/javascript" src="PATH"></script>
-where PATH is the .js file location. This line must come AFTER your jQuery script tag.
+a script tag AFTER your jQuery script tag with the .js file. Unless you're looking to modify the plugin,
+go with the minified version.
 
 
 USE:
