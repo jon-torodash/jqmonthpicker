@@ -26,7 +26,7 @@ with a standard Javascript object as argument. The format is:
 "jQueryObject.monthpicker(optionsObject)"
 The optionsObject has the following controls. Any and all can be included/omitted:
 
-{
+
   "type": to create a single vs. a range based month picker. ('double' will create a range. Anything else is single),
   "submitText": what the confirm button should say (any string),
   "minPoint": the earliest pickable month (javascript date, 'mm/yyyy' string, or 'today'),
@@ -41,7 +41,7 @@ The optionsObject has the following controls. Any and all can be included/omitte
   "fontSize": the font size used (any valid CSS for font size),
   "font": the font family used (any valid CSS for font family),
   "destroy": removes the widget (must send string 'destroy' as value)
-}
+
 
 
 NOTE: This plugin is _not_ extended from the jquery-ui project. 
