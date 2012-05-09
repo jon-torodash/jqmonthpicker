@@ -26,35 +26,22 @@ with a standard Javascript object as argument. The format is:
 "jQueryObject.monthpicker(optionsObject)"
 The optionsObject has the following controls. Any and all can be included/omitted:
 
-
-  "type": to create a single vs. a range based month picker. ('double' will create a range. Anything else is single),
-  
-  "submitText": what the confirm button should say (any string),
-  
-  "minPoint": the earliest pickable month (javascript date, 'mm/yyyy' string, or 'today'),
-  
-  "maxPoint": the latest pickable month (javascript date, 'mm/yyyy' string, or 'today'),
-  
-  "font": the font family used (any valid CSS for font family),
-  
-  "colorDefault": for the month button backgrounds (any valid CSS for font color),
-  
-  "colorHover": for hovering over the month button backgrounds (any valid CSS for font color),
-  
-  "colorSelected": for selecting the month button (any valid CSS for font color),
-  
-  "colorBknd": the widget's background color (any valid CSS for font color),
-  
-  "colorMonthTxt": the color for the month abbreviations (any valid CSS for font color),
-  
-  "colorYearTxt": the color for the year (any valid CSS for font color),
-  
-  "fontSize": the font size used (any valid CSS for font size),
-  
-  "font": the font family used (any valid CSS for font family),
-  
+{
+  "type": to create a single vs. a range based month picker. ('double' will create a range. Anything else is single),  
+  "submitText": what the confirm button should say (any string),  
+  "minPoint": the earliest pickable month (javascript date, 'mm/yyyy' string, or 'today'),  
+  "maxPoint": the latest pickable month (javascript date, 'mm/yyyy' string, or 'today'),  
+  "font": the font family used (any valid CSS for font family),  
+  "colorDefault": for the month button backgrounds (any valid CSS for font color),  
+  "colorHover": for hovering over the month button backgrounds (any valid CSS for font color),  
+  "colorSelected": for selecting the month button (any valid CSS for font color),  
+  "colorBknd": the widget's background color (any valid CSS for font color),  
+  "colorMonthTxt": the color for the month abbreviations (any valid CSS for font color),  
+  "colorYearTxt": the color for the year (any valid CSS for font color),  
+  "fontSize": the font size used (any valid CSS for font size),  
+  "font": the font family used (any valid CSS for font family),  
   "destroy": removes the widget (must send string 'destroy' as value)
-
+}
 
 
 NOTE: This plugin is _not_ extended from the jquery-ui project. 
