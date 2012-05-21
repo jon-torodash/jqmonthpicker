@@ -44,4 +44,8 @@ The options object has the following controls. Any and all can be included/omitt
 }
 
 
+TODO:
+
+A nicer, more uniform CSS solution for the month scroll arrows.
+
 NOTE: This plugin is _not_ extended from the jquery-ui project. 
