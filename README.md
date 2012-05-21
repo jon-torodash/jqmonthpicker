@@ -14,7 +14,8 @@ USE:
 
 The monthpicker can be added to any input field in a jQuery object, and will completely take over all input control.
 Simply call:
-"jQueryObject.monthpicker()"
+` .monthpicker()
+`
 to get a basic single month/year picker with the standard colors.
 
 
@@ -22,12 +23,11 @@ to get a basic single month/year picker with the standard colors.
 OPTIONS:
 
 Options can be set at initialization or changed at any time by reinvoking the monthpicker on any field
-with a standard Javascript object as argument. The format is:
-"jQueryObject.monthpicker(optionsObject)"
-The optionsObject has the following controls. Any and all can be included/omitted:
+with a standard Javascript object as argument. (<a href="https://developer.mozilla.org/en/JavaScript/Guide/Working_with_Objects">Don't know what a Javascript Object is?</a>)
+The options object has the following controls. Any and all can be included/omitted:
 
 {
-  "type": to create a single vs. a range based month picker. ('double' will create a range. Anything else is single),  
+  "type": to create a single vs. a range based month picker. ('range' will create a range. Anything else is single),  
   "submitText": what the confirm button should say (any string),  
   "minPoint": the earliest pickable month (javascript date, 'mm/yyyy' string, or 'today'),  
   "maxPoint": the latest pickable month (javascript date, 'mm/yyyy' string, or 'today'),  
